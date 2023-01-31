@@ -9,6 +9,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
 /*header*/
 a:hover {
     text-decoration: none;
@@ -313,7 +315,7 @@ body {
 }
 
 
-.consermulDiv{
+.consermulDiv {
     margin-top: 40px;
     background-color: #27272a;
     height: 180px;
@@ -546,7 +548,7 @@ body {
     color: #d4d4d8;
 }
 
-.hamburger{
+.hamburger {
     display: none;
 }
 
@@ -588,13 +590,13 @@ body {
 
 @media (max-width: 768px) {
 
-    .hamburger{
+    .hamburger {
         margin-left: -50px;
         display: block;
         margin-top: 30px;
     }
 
-    .hamburger .line{
+    .hamburger .line {
         margin-top: 7px;
         background-color: #fefefe;
         width: 30px;
@@ -656,7 +658,7 @@ body {
         margin-left: -50px;
     }
 
-    .nav-links{
+    .nav-links {
         margin-left: 10%;
         background-color: #18181b;
         height: 232px;
@@ -665,37 +667,107 @@ body {
         overflow: hidden;
     }
 
-    .nav-links ul{
+    .nav-links ul {
         opacity: 0;
         width: fit-content;
         margin-left: 25%;
         transition: 0.5s;
     }
 
-    .nav-links ul li a{
+    .nav-links ul li a {
         display: block;
     }
 
-    .nav-links.active{
+    .nav-links.active {
         width: 300px;
         height: 232px;
     }
 
-    .nav-links.active ul{
+    .nav-links.active ul {
         opacity: 1;
     }
-    
+
 
 }
 
+@media (max-width: 650px) {
 
-
-@media (max-width: 576px) {
     .hamburger{
-        margin-left: 2px;
+        margin-left: -10px;
+        display: block;
+        margin-top: 30px;
     }
 
     .hamburger .line{
+        margin-top: 7px;
+        background-color: #fefefe;
+        width: 30px;
+        height: 1px;
+    }
+
+    #ediz {
+        margin-left: -10px;
+        width: 500px;
+    }
+
+    #developer {
+        width: 300px;
+        margin-left: -10px;
+    }
+
+    #hello {
+        margin-left: -10px;
+        width: 425px;
+    }
+
+    #resume {
+        margin-left: -10px;
+    }
+
+    .aboutMe {
+        margin-left: -10px;
+        width: 300px;
+    }
+
+    .paragraf {
+        margin-left: -10px;
+        width: 400px;
+    }
+
+    .col3 {
+        margin-left: -10px;
+        width: 420px;
+    }
+
+    .col4 {
+        margin-left: -10px;
+        width: 400px;
+    }
+
+    .col5 {
+        margin-left: -10px;
+    }
+
+    .skills {
+        margin-left: -10px;
+    }
+
+    #skill {
+        margin-left: -10px;
+    }
+
+    .col7 {
+        margin-left: -10px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .hamburger {
+        margin-left: 2px;
+    }
+
+    .hamburger .line {
         width: 25px;
     }
 
@@ -710,7 +782,7 @@ body {
 
     #hello {
         margin-left: 10px;
-        width: 300px;
+        width: 450px;
     }
 
     #resume {
@@ -724,23 +796,24 @@ body {
 
     .paragraf {
         margin-left: 10px;
-        width: 320px;
+        width: 440px;
     }
 
     .col3 {
         margin-left: 10px;
-        width: 400px;
+        width: 420px;
     }
 
-    .radiotext{
+    .radiotext {
         width: 300px;
     }
 
-    .hamshack{
+    .hamshack {
         height: 270px;
     }
 
-    .hamshackRadio, .information{
+    .hamshackRadio,
+    .information {
         margin-top: 10px;
     }
 
