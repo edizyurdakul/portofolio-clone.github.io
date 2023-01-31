@@ -849,3 +849,90 @@ body {
     }
 
 }
+
+@media (max-width: 540px) {
+    .hamburger {
+        margin-left: 2px;
+    }
+
+    .hamburger .line {
+        width: 25px;
+    }
+
+    #ediz {
+        margin-left: 10px;
+        width: 500px;
+    }
+
+    #developer {
+        margin-left: 10px;
+    }
+
+    #hello {
+        margin-right: 10px;
+        margin-left: 10px;
+        width: 500px;
+    }
+
+    #resume {
+        margin-left: 10px;
+    }
+
+    .aboutMe {
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .paragraf {
+        margin-left: 10px;
+        width: 500px;
+    }
+
+    .col3 {
+        margin-left: 10px;
+        width: 480px;
+    }
+
+    .radiotext {
+        width: 300px;
+    }
+
+    .hamshack {
+        height: 270px;
+    }
+
+    .hamshackRadio,
+    .information {
+        margin-top: 10px;
+    }
+
+    .col4 {
+        margin-left: 10px;
+        width: 450px;
+    }
+
+    .col5 {
+        margin-left: 10px;
+    }
+
+    .skills {
+        margin-left: 10px;
+        width: 250px;
+    }
+
+    #skill {
+        width: 200px;
+        margin-left: 10px;
+    }
+
+    .skills div {
+        margin: 0px 40px 0px 0px;
+
+
+    }
+
+    .col7 {
+        margin-left: 10px;
+    }
+
+}
