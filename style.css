@@ -9,23 +9,15 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
-/*header*/
 a:hover {
     text-decoration: none;
     list-style: none;
-
 }
 
-.bar {
-    display: none;
-}
-
-a {
+a{
     list-style: none;
     text-decoration: none;
-    color: #ffff;
+    color: #fefefe;
 }
 
 body {
@@ -43,10 +35,6 @@ body {
     display: flex;
 }
 
-#main {
-    margin-left: 0px;
-}
-
 .nav-links ul li a:hover {
     background-color: rgb(63 63 70);
     border-radius: 10px;
@@ -54,25 +42,39 @@ body {
     transition: 0.3s;
 }
 
-/*------------------main----------------------------*/
+.cols {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
-/*      Ediz Yurdakul      */
-#ediz,
-#developer {
-    color: #fefefe;
+.col1 {
+    margin-top: 13vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #ediz {
     font-size: 50px;
     font-weight: 700;
+    color: #fefefe;
+}
+
+#developer {
+    color: #fefefe;
+}
+
+.h1 {
+    color: #fefefe;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 #hello {
     color: rgb(212 212 216);
-
 }
 
-/*button*/
 .button {
     padding: 0 1rem;
     position: relative;
@@ -139,48 +141,35 @@ body {
     transition: 0.1s;
 }
 
-.col1 {
-    margin-top: 100px;
-}
-
-/*About Me*/
-.paragraf,
-.aboutMe {
+.paragraf {
     color: #d4d4d8;
 }
 
-.col2 {
-    margin-top: 150px;
-}
-
-.aboutMe {
-    font-weight: 700;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-/*Featured Work*/
-
 .col3 {
-    margin-top: 100px;
+    margin-top: 13vh;
 }
 
 #work {
     color: #fefefe;
     font-size: 30px;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 3.9vh;
 
 }
 
-/*Hamshack Radio*/
-.hamshack {
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cards_card {
+    padding: 2rem;
     background-color: #27272a;
-    height: 221px;
-    border-radius: 6px;
+    border-radius: 0.5rem;
 }
 
-.hamshack:hover {
+.cards_card:hover {
     scale: 1.01;
 }
 
@@ -243,109 +232,35 @@ body {
     transition: 0.1s;
 }
 
-.hamshackRadio,
-.information {
-    color: #d4d4d8;
-}
-
-.hamshackRadio {
-    font-size: 20px;
-    margin-top: 15px;
+.h3{
+    color: #fefefe;
+    font-size: 24px;
+    margin-top: 13px;
     margin-left: 30px;
 }
 
-.information {
-    margin-right: 30px;
-    margin-left: 30px;
+.cards_card_p{
+    color:#A1A1AA ;
+    margin-top: 1.95vh;
+    margin-left: 3.9vh;
 }
 
 .button2,
 .button3 {
-    margin-left: 30px;
-
-
+    margin-left: 3.9vh;
 }
 
-.hamshackRadio .information {
-    margin-left: -10px;
-}
-
-.radiotext p {
+.platform{
     color: #fefefe;
     font-size: 13px;
     display: inline-block;
     background-color: #18181b;
-    margin: -20px;
-    border-radius: 5px;
-    margin-left: 30px;
-    margin-top: 20px;
+    margin: -2.6vh;
+    border-radius: 0.65vh;
+    margin-left: 3.9vh;
+    margin-top: 2.6vh;
     padding: 3px;
 }
-
-/*featured work*/
-.yourself {
-    margin-top: 40px;
-    background-color: #27272a;
-    height: 221px;
-    border-radius: 6px;
-}
-
-.yourself:hover {
-    scale: 1.01;
-}
-
-.globalize {
-    color: #fefefe;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 15px;
-    font-size: 20px;
-}
-
-.yourselfText p {
-    color: #fefefe;
-    font-size: 13px;
-    display: inline-block;
-    background-color: #18181b;
-    margin: -20px;
-    border-radius: 5px;
-    margin-left: 30px;
-    margin-top: 20px;
-    padding: 3px;
-}
-
-
-.consermulDiv {
-    margin-top: 40px;
-    background-color: #27272a;
-    height: 180px;
-    border-radius: 6px;
-}
-
-.consermulDiv:hover {
-    scale: 1.01;
-}
-
-.consermul {
-    color: #fefefe;
-    margin-left: 30px;
-    margin-top: 15px;
-    font-size: 20px;
-}
-
-.consermulText p {
-    color: #fefefe;
-    font-size: 13px;
-    display: inline-block;
-    background-color: #18181b;
-    margin: -20px;
-    border-radius: 5px;
-    margin-left: 30px;
-    margin-top: 20px;
-    padding: 3px;
-}
-
-/*------------------Col 4-----------------------*/
 
 .col4 {
     margin-top: 120px;
@@ -356,17 +271,29 @@ body {
     color: #fefefe;
 }
 
-/*nextjs resume builder */
+.card-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
 
-.builder {
+.cards_card4 {
+    border-bottom: 1px solid #fefefe;
+}
+
+.cards_card4:hover {
+    scale: 1.01;
+    transition: 0.1s;
+}
+
+.cards_h {
     color: #fefefe;
 }
 
-.builderInformation {
+.cards_p {
     color: rgb(161 161 170);
 }
 
-/*button*/
 .button-text4 {
     position: absolute;
     top: 0;
@@ -387,85 +314,8 @@ body {
     margin-bottom: 10px;
 }
 
-.nextJS {
-    border-bottom: 1px solid #fefefe;
-    margin-bottom: 100px;
-}
-
-.nextJS:Hover {
-    scale: 1.01;
-    transition: 0.1s;
-}
-
-
-/*new home */
-
-.newHome {
-    margin-top: -75px;
-    border-bottom: 1px solid #fefefe;
-    margin-bottom: 10px;
-}
-
-.newHome:hover {
-    scale: 1.01;
-    transition: 0.1s;
-}
-
-.home {
-    color: #fefefe;
-}
-
-.marketPlace {
-    color: rgb(161 161 170);
-}
-
-/*github scout*/
-.githubConst:hover {
-    scale: 1.01;
-    transition: 0.1s;
-}
-
-.githubConst {
-    border-bottom: 1px solid #fefefe;
-    margin-bottom: 10px;
-}
-
-.githubScout {
-    color: #fefefe;
-}
-
-.followers {
-    color: rgb(161 161 170);
-}
-
-/*feedback app*/
-.feedBack:hover {
-    scale: 1.01;
-    transition: 0.1s;
-}
-
-.feedBack {
-    border-bottom: 1px solid #fefefe;
-    margin-bottom: 10px;
-}
-
-.app {
-    color: #fefefe;
-}
-
-.json {
-    color: rgb(161 161 170);
-}
-
-/*experience*/
-
 .col5 {
-    margin-top: 150px;
-}
-
-.experience {
-    color: #fefefe;
-    font-size: 30px;
+    margin-top: 13vh;
 }
 
 .dado {
@@ -488,65 +338,31 @@ body {
 
 /*Skills*/
 .col6 {
-    margin-top: 100px;
+    margin-top: 3.9vh;
 }
 
-#skill {
+.card_skills{
     color: #fefefe;
-    font-size: 30px;
-    margin-bottom: 20px;
+    font-size: 17px;
+    margin-bottom: 3.6vh;
 }
 
-.frameworks p {
-    color: rgb(161 161 170);
-}
-
-.languages p {
-    color: rgb(161 161 170);
-}
-
-.tools p {
-    color: rgb(161 161 170);
-}
-
-.design p {
-    color: rgb(161 161 170);
-}
-
-.skills {
+.skills{
     display: inline-flex;
-    margin-left: 0px;
 }
 
-#frameworks,
-#languages,
-#tools,
-#design,
-#skills {
-    color: #fefefe;
-    font-size: 15px;
-    font-weight: 500;
+.skills p{
+    color: rgb(161 161 170);
 }
 
-.skills div {
+.card_6{
     margin: 0px 60px 0px 0px;
 }
 
-/*Contact */
 .col7 {
-    margin-top: 100px;
+    margin-top: 13vh;
     border-bottom: 1px solid #fefefe;
     margin-bottom: 10px;
-}
-
-#contact {
-    color: #fefefe;
-    font-size: 30px;
-}
-
-#contactID {
-    width: 400px;
-    color: #d4d4d8;
 }
 
 .hamburger {
@@ -556,16 +372,15 @@ body {
 /*-------------------responsive tasarım------------------------------*/
 
 @media (max-width: 1200px) {
-    .consermulDiv {
-        margin-top: 40px;
+    .cards_card{
         background-color: #27272a;
-        height: 220px;
+        height: 40vh;
         border-radius: 6px;
     }
 }
 
 @media (max-width: 992px) {
-    .col-2 {
+    .col-2{
         display: none;
     }
 
@@ -573,93 +388,60 @@ body {
         font-size: 45px;
     }
 
-    #hello {
-        font-size: 15px;
-        width: 650px;
-    }
-
-    .aboutMe {
-        font-size: 30px;
-
-    }
-
     .paragraf {
-        width: 650px;
         font-size: 15px;
+        width: 120vh;
+    }
+
+    .h1 {
+        font-size: 30px;
+    }
+
+    .cards_card{
+        height: 45vh;
+        width: 120vh;
+    }
+
+    .cards_card4{
+        width: 120vh;
+    }
+
+    .card_7{
+        width: 120vh;
+    }
+
+    #main{
+        width: 120vh;
     }
 }
 
 @media (max-width: 768px) {
 
     .hamburger {
-        margin-left: -50px;
+        margin-left: 0.8vh;
         display: block;
-        margin-top: 30px;
+        margin-top: 4vh;
     }
 
     .hamburger .line {
-        margin-top: 7px;
+        margin-top: 0.91vh;
         background-color: #fefefe;
         width: 30px;
         height: 1px;
     }
 
-    #ediz {
-        margin-left: -50px;
-        width: 500px;
+    .paragraf, .cards_card, .cards_card4{
+        width: 78vh;
     }
-
-    #developer {
-        width: 300px;
-        margin-left: -50px;
-    }
-
-    #hello {
-        margin-left: -50px;
-        width: 575px;
-    }
-
-    #resume {
-        margin-left: -50px;
-    }
-
-    .aboutMe {
-        margin-left: -50px;
-        width: 300px;
-    }
-
-    .paragraf {
-        margin-left: -50px;
-        width: 575px;
-    }
-
-    .col3 {
-        width: 570px;
-    }
-
-    .col4 {
-        margin-left: -50px;
-        width: 570px;
-    }
-
-    .col5 {
-        margin-left: -50px;
-    }
-
-    .skills {
-        margin-left: -50px;
-    }
-
-    #skill {
-        margin-left: -50px;
-    }
-
-    .col7 {
-        margin-left: -50px;
+    
+    #main{
+        margin-left: -10vh;
     }
 
     .nav-links {
-        margin-left: 10%;
+        border-radius: 10px;
+        margin-left: 16%;
+        margin-top: 4vh;
         background-color: #18181b;
         height: 232px;
         position: absolute;
@@ -668,9 +450,10 @@ body {
     }
 
     .nav-links ul {
+        margin-top: -3vh;
         opacity: 0;
         width: fit-content;
-        margin-left: 25%;
+        margin-left: 35%;
         transition: 0.5s;
     }
 
@@ -693,7 +476,7 @@ body {
 @media (max-width: 650px) {
 
     .hamburger {
-        margin-left: -10px;
+        margin-left: 1vh;
         display: block;
         margin-top: 30px;
     }
@@ -705,58 +488,16 @@ body {
         height: 1px;
     }
 
-    #ediz {
-        margin-left: -10px;
-        width: 550px;
-    }
-
-    #developer {
-        width: 300px;
-        margin-left: -10px;
-    }
-
-    #hello {
-        margin-left: -10px;
-        width: 500px;
-    }
-
     #resume {
-        margin-left: -10px;
+        margin-left: 0vh;
     }
 
-    .aboutMe {
-        margin-left: -10px;
-        width: 300px;
+    #main{
+        margin-left: -2vh;
     }
 
-    .paragraf {
-        margin-left: -10px;
-        width: 500px;
-    }
-
-    .col3 {
-        width: 500px;
-    }
-
-    .col4 {
-        margin-left: -10px;
-        width: 480px;
-    }
-
-    .col5 {
-        margin-left: -10px;
-    }
-
-    .skills {
-        margin-left: -10px;
-    }
-
-    #skill {
-        margin-left: -10px;
-    }
-
-    .col7 {
-        margin-left: -10px;
+    .paragraf, .cards_card, .cards_card4{
+        width: 90vh;
     }
 
 }
@@ -770,166 +511,17 @@ body {
         width: 25px;
     }
 
-    #ediz {
-        margin-left: 10px;
-        width: 500px;
+    #main{
+        margin-left: 0vh;
     }
 
-    #developer {
-        margin-left: 10px;
+    .paragraf, .cards_card, .cards_card4{
+        width: 86vh;
     }
 
-    #hello {
-        margin-right: 10px;
-        margin-left: 10px;
-        width: 500px;
+    #ediz{
+        width: 70vh;
     }
-
-    #resume {
-        margin-left: 10px;
-    }
-
-    .aboutMe {
-        margin-left: 10px;
-        width: 300px;
-    }
-
-    .paragraf {
-        margin-left: 10px;
-        width: 500px;
-    }
-
-    .col3 {
-
-        width: 480px;
-    }
-
-    .radiotext {
-        width: 300px;
-    }
-
-    .hamshack {
-        height: 270px;
-    }
-
-    .hamshackRadio,
-    .information {
-        margin-top: 10px;
-    }
-
-    .col4 {
-        margin-left: 10px;
-        width: 450px;
-    }
-
-    .col5 {
-        margin-left: 10px;
-    }
-
-    .skills {
-        margin-left: 10px;
-        width: 250px;
-    }
-
-    #skill {
-        width: 200px;
-        margin-left: 10px;
-    }
-
-    .skills div {
-        margin: 0px 40px 0px 0px;
-
-
-    }
-
-    .col7 {
-        margin-left: 10px;
-    }
-
-}
-
-@media (max-width: 540px) {
-    .hamburger {
-        margin-left: 2px;
-    }
-
-    .hamburger .line {
-        width: 25px;
-    }
-
-    #ediz {
-        margin-left: 10px;
-        width: 500px;
-    }
-
-    #developer {
-        margin-left: 10px;
-    }
-
-    #hello {
-        margin-right: 10px;
-        margin-left: 10px;
-        width: 500px;
-    }
-
-    #resume {
-        margin-left: 10px;
-    }
-
-    .aboutMe {
-        margin-left: 10px;
-        width: 300px;
-    }
-
-    .paragraf {
-        margin-left: 10px;
-        width: 500px;
-    }
-
-    .col3 {
-        width: 480px;
-    }
-
-    .radiotext {
-        width: 300px;
-    }
-
-    .hamshack {
-        height: 270px;
-    }
-
-    .hamshackRadio,
-    .information {
-        margin-top: 10px;
-    }
-
-    .col4 {
-        margin-left: 10px;
-        width: 450px;
-    }
-
-    .col5 {
-        margin-left: 10px;
-    }
-
-    .skills {
-        margin-left: 10px;
-        width: 250px;
-    }
-
-    #skill {
-        width: 200px;
-        margin-left: 10px;
-    }
-
-    .skills div {
-        margin: 0px 40px 0px 0px;
-
-
-    }
-
-    .col7 {
-        margin-left: 10px;
-    }
+   
 
 }
