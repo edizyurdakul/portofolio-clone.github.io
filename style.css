@@ -516,11 +516,11 @@ body {
     }
 
     .paragraf, .cards_card, .cards_card4{
-        width: 120vh;
+        width: 10000px;
     }
 
     #ediz{
-        width: 70vh;
+        width: 100vh;
     }
    
 
